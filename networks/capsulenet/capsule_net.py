@@ -7,7 +7,7 @@ from keras.layers import (
     Reshape,
     Dropout
 )
-from keras.layers.merge import add
+from keras.layers import add
 from keras.regularizers import l2
 from keras.models import Model
 from keras.layers.normalization import BatchNormalization
