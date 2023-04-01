@@ -10,7 +10,7 @@ from keras.layers import (
 from keras.layers import add
 from keras.regularizers import l2
 from keras.models import Model
-from keras.layers.normalization import BatchNormalization
+from keras.layers.normalization.batch_normalization_v1 import BatchNormalization
 import keras.backend as K
 from keras import optimizers
 import numpy as np
